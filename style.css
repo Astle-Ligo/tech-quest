@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body{
+    background-image: url(./pexels-francesco-ungaro-998641.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
 
 /* HOME PAGE */
 
@@ -16,13 +24,15 @@
 }
 
 .hero-left{
-    background-color: red;
+    /* background-color: red; */
     height: 100%;
-    width: 100%;    
+    width: 100%;   
+    padding: 0; 
 }
 
 .hero-right{
-    background-color: blue;
+    /* background-color: blue; */
     height: 100%;
     width: 100%;
+    padding: 0;
 }
