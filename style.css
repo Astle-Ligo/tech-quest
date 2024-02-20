@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    padding: 0;
+}
+
+
+/* HOME PAGE */
+
+.home{
+    height: 100lvh;
+    width: 100lvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-left{
+    background-color: red;
+    height: 100%;
+    width: 100%;    
+}
+
+.hero-right{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
