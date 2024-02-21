@@ -37,6 +37,47 @@ body {
     padding: 0;
 }
 
+/* HOME PAGE */
+
+/* EVENT DETAILS */
+
+.event-theme,.event-prize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.theme-box ,.prize-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.theme-card{
+    height: 20rem;
+    aspect-ratio: 1;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prize-logo{
+    height: 12rem;
+    width: 15rem;
+    background-image: url(./logo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.prize-title{
+    background-color: aqua;
+
+}
+
+/* EVENT DETAILS */
 
 
 /* Schedule */
@@ -213,7 +254,7 @@ ul li i:after {
     margin-top: 5px;
     margin-bottom: 15px;
     padding: 0 50px 0 15px;
-    transition: .3s opacity, .6s max-height;
+    transition: .5s opacity, .6s max-height;
     hyphens: auto;
     z-index: 2;
 }
@@ -228,16 +269,10 @@ ul li i:after {
 .faq-box ul li {
     position: relative;
     overflow: hidden;
-    /* padding: 0;
-    margin: 0; */
     background-color: rgba(0, 0, 0, 0.4);
     -webkit-tap-highlight-color: transparent;
     border-bottom: solid 1px white;
 }
-
-/* .faq-box ul li+li {
-    margin-top: 15px;
-} */
 
 .faq-box ul li:last-of-type {
     padding-bottom: 0;
@@ -298,3 +333,58 @@ ul li i:after {
 }
 
 /* FAQ */
+
+/* SPONSORS */
+
+.sponsors-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.sponsors-card{
+    height: 18rem;
+    width: 20rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sponsors-logo{
+    height: 12rem;
+    width: 15rem;
+    background-image: url(./logo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sponsors-title{
+    background-color: aqua;
+
+}
+
+/* SPONSORS */
+
+
+/* CONTACT US */
+
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.icon-phone{
+    background-image: url(https://icons8.com/icon/9659/phone);
+}
+
+/* CONTACT US */
+
