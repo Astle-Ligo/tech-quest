@@ -1,6 +1,7 @@
 * {
     padding: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -83,7 +84,7 @@ body {
 }
 
 .nav-logo img {
-    width: 7rem;
+    width: 100%;
 }
 
 .nav-items {
@@ -211,7 +212,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 80%;
-    height: 60%;
+    height: 80%;
 }
 
 .hero-right {
@@ -253,6 +254,15 @@ body {
     color: #834ff4;
     font-weight: 700;
     font-size: clamp(2.25rem, 4vw, 3.75rem);
+}
+
+.hero-date{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-date span{
+    color:#834ff4;
 }
 
 .hero-btn {
@@ -477,7 +487,7 @@ body {
 
 .timeline-block-left {
     float: left;
-    direction: rtl
+    direction: rtl;
 }
 
 .marker {
@@ -500,12 +510,16 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 25px;
-    font-weight: 500
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .timeline-content span {
     font-size: 15px;
     color: #a4a4a4;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .timeline-content p {
@@ -513,6 +527,8 @@ body {
     line-height: 1.5em;
     word-spacing: 1px;
     color: #888;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
