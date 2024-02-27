@@ -31,8 +31,8 @@ body {
 
 .text {
     font-size: calmp(0.75rem, 4vw, 1.25rem);
-    /* font-size: 1.25rem; */
     padding: 2rem;
+    text-align: justify;
 }
 
 .sub-heading {
@@ -181,6 +181,17 @@ body {
         padding: 10px;
         /* Add padding for touch-friendly interaction */
     }
+
+    .nav-logo {
+        padding: 0;
+        padding-left: 1rem;
+        width: 50%;
+    }
+
+    .nav-items {
+        width: 50%;
+    }
+
 }
 
 
@@ -208,7 +219,7 @@ body {
 }
 
 .hero-logo {
-    background: url(./logo.png);
+    background: url(./Images/logo.png);
     background-position: center;
     background-size: cover;
     width: 80%;
@@ -256,13 +267,13 @@ body {
     font-size: clamp(2.25rem, 4vw, 3.75rem);
 }
 
-.hero-date{
+.hero-date {
     font-size: 3rem;
     font-weight: 700;
 }
 
-.hero-date span{
-    color:#834ff4;
+.hero-date span {
+    color: #834ff4;
 }
 
 .hero-btn {
@@ -298,7 +309,7 @@ body {
 }
 
 .uni-text {
-    background: url(./sju.png);
+    background: url(./Images/sju.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -312,7 +323,6 @@ body {
 
 .about-text {
     font-size: clamp(0.75rem, 4vw, 1.25rem);
-    /* font-size: 1.25rem; */
     color: #000;
     font-weight: 500;
 }
@@ -337,6 +347,7 @@ body {
     font-size: clamp(0.75rem, 4vw, 1.25rem);
     /* font-size: 1.25rem; */
     font-weight: 500;
+    text-align: justify;
 }
 
 .vision-mission-box {
@@ -363,7 +374,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .vision-mission-box {
-        height: 15rem;
+        height: 16rem;
         aspect-ratio: 1;
         padding: 0.25rem;
     }
@@ -379,6 +390,11 @@ body {
 
 
 /* EVENT DETAILS */
+
+.event-details-text {
+    font-size: clamp(0.75rem, 4vw, 1.25rem);
+
+}
 
 .event-theme,
 .event-prize {
@@ -406,7 +422,7 @@ body {
 }
 
 .theme-card {
-    height: clamp(20rem, 30vw, 30rem);
+    height: clamp(18rem, 30vw, 30rem);
     /* height: 25rem; */
     aspect-ratio: 1;
     background-color: blueviolet;
@@ -416,13 +432,13 @@ body {
 }
 
 .fintech {
-    background: url(./Designer.png);
+    background: url(./Images/Designer.png);
     background-position: center;
     background-size: cover;
 }
 
 .health-care {
-    background: url(./healthcare.png);
+    background: url(./Images/healthcare.png);
     background-position: center;
     background-size: cover;
 }
@@ -431,14 +447,21 @@ body {
 .prize-logo {
     height: 12rem;
     width: 15rem;
-    background-image: url(./logo.png);
-    background-position: center;
-    background-size: cover;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid brown 10px;
 }
 
 .prize-title {
     background-color: aqua;
+}
 
+.prize-title h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* EVENT DETAILS */
@@ -503,27 +526,35 @@ body {
 .timeline-content {
     width: 95%;
     padding: 0 15px;
-    color: #666
+    color: #e9e0e0;
 }
 
 .timeline-content h3 {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: 500;
     display: flex;
     justify-content: flex-start;
+    color: #fff;
 }
 
 .timeline-content span {
-    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: #a4a4a4;
     display: flex;
     justify-content: flex-start;
 }
 
+.timeline-block-left .timeline-content span {
+    direction: ltr;
+    justify-content: flex-end;
+}
+
 .timeline-content p {
-    font-size: 14px;
+    font-size: 1.25rem;
+    font-weight: 500;
     line-height: 1.5em;
     word-spacing: 1px;
     color: #888;
@@ -551,6 +582,11 @@ body {
         float: none;
         direction: ltr;
     }
+
+    .timeline-block-left .timeline-content span {
+        justify-content: flex-start;
+    }
+
 }
 
 /* Schedule */
@@ -743,23 +779,32 @@ ul li i:after {
 .sponsors-logo {
     height: 12rem;
     width: 18rem;
-    background-image: url(./logo.png);
+    background-color: white;
     background-position: center;
     background-size: cover;
 }
 
 .sponsors-title {
     background-color: black;
-    width: 24rem;
+    width: 22rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .wonderla-logo {
-    background-image: url(./Wonderla_Amusements_Parks_Logo.png);
+    background-image: url(./Images/Wonderla_Amusements_Parks_Logo.png);
     background-size: cover;
 
+}
+
+.danil-vilov {
+    background-image: url(./Images/danil-vilov.png);
+    background-size: cover;
+}
+
+.ss-fashion {
+    background-image: url(./Images/ss-logo.png);
 }
 
 /* SPONSORS */
