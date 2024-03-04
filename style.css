@@ -23,10 +23,13 @@ body {
     padding-left: 1rem;
     padding-top: 6rem;
     padding-bottom: 4rem;
+    align-self: flex-start;
 }
 
 .page-title {
     font-size: clamp(2.5rem, 4vw, 4rem);
+    color: rgb(119, 99, 145);
+    font-weight: 700;
 }
 
 .text {
@@ -130,10 +133,10 @@ body {
 }
 
 .register-btn {
-    background-color: #602e9f;
+    background-color: rgb(50,0,151);
     padding-block: 1rem;
     padding-inline: 1.25rem;
-    border-radius: 10rem;
+    border-radius: 1rem;
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
@@ -142,7 +145,7 @@ body {
 
 .register-btn:hover {
     text-decoration: none;
-    color: red;
+    color: white;
     font-weight: 600;
 }
 
@@ -251,7 +254,7 @@ body {
 }
 
 .hero-heading-highlight {
-    color: #834ff4;
+    color: rgb(194, 109, 188);
     font-size: clamp(3rem, 4vw, 4.75rem);
     font-weight: 700;
 }
@@ -262,7 +265,7 @@ body {
 }
 
 .hero-time {
-    color: #834ff4;
+    color: rgb(194, 109, 188);
     font-weight: 700;
     font-size: clamp(2.25rem, 4vw, 3.75rem);
 }
@@ -273,7 +276,7 @@ body {
 }
 
 .hero-date span {
-    color: #834ff4;
+    color: rgb(194, 109, 188);
 }
 
 .hero-btn {
@@ -335,19 +338,22 @@ body {
     color: #000;
     flex-wrap: wrap;
     gap: 2rem;
+    padding: 0.25rem;
 }
 
 .vision-mission-title {
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
-    font-weight: 600;
-    /* font-size: 2.5rem; */
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .vision-mission-text {
-    font-size: clamp(0.75rem, 4vw, 1.25rem);
+    font-size: clamp(1rem, 4vw, 1.25rem);
     /* font-size: 1.25rem; */
-    font-weight: 500;
+    font-weight: 600;
     text-align: justify;
+    align-self: center;
+    margin: 0;
 }
 
 .vision-mission-box {
@@ -356,9 +362,10 @@ body {
     border: solid 10px rgba(143, 46, 46, 0.796);
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     padding: 0.5rem;
+    margin: 0;
 }
 
 .vision-mission-box2 {
@@ -367,7 +374,7 @@ body {
     border: solid 10px rgba(143, 46, 46, 0.796);
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     padding: 0.5rem;
 }
@@ -442,7 +449,6 @@ body {
     background-position: center;
     background-size: cover;
 }
-
 
 .prize-logo {
     height: 12rem;
@@ -754,21 +760,28 @@ ul li i:after {
 
 /* SPONSORS */
 
+.sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .sponsors-box {
     height: 100%;
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 5rem 10rem;
     margin-top: 3rem;
 }
 
 .sponsors-card {
     height: 20rem;
-    width: 20rem;
-    background-color: red;
+    width: 22rem;
+    background-color:rgb(194, 109, 188);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -785,7 +798,8 @@ ul li i:after {
 }
 
 .sponsors-title {
-    background-color: black;
+    /* background-color: rgb(194, 109, 188); */
+    background-color:#1e2128;
     width: 22rem;
     display: flex;
     align-items: center;
@@ -805,6 +819,13 @@ ul li i:after {
 
 .ss-fashion {
     background-image: url(./Images/ss-logo.png);
+    background-size: cover;
+}
+
+
+.foxiton {
+    background-image: url(./Images/foxiton.png);
+    background-size: cover;
 }
 
 /* SPONSORS */
