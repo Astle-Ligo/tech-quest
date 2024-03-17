@@ -872,6 +872,12 @@ ul li i:after {
     justify-content: center;
 }
 
+.contact-map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
     .contact-icons {
         gap: 1.5rem;
