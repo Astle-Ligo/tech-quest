@@ -842,7 +842,6 @@ ul li i:after {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .contact-box {
@@ -853,6 +852,7 @@ ul li i:after {
     flex-direction: column;
     margin-block: 3rem;
     gap: 3rem;
+    width: fit-content;
 }
 
 .contact-card {
@@ -889,6 +889,7 @@ ul li i:after {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: fit-content;
 }
 
 @media screen and (max-width: 768px) {
