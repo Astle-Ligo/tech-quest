@@ -828,6 +828,10 @@ ul li i:after {
     background-size: cover;
 }
 
+.unibic{
+    background-image:url(./Images/unibic.png);
+    background-size:cover;
+
 /* SPONSORS */
 
 
