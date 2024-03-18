@@ -838,11 +838,19 @@ ul li i:after {
 
 /* CONTACT US */
 
-.contact-box {
+.contact-area{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     margin-block: 3rem;
     gap: 3rem;
 }
