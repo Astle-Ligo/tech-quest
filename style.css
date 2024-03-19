@@ -133,7 +133,7 @@ body {
 }
 
 .register-btn {
-    background-color: rgb(50,0,151);
+    background-color: rgb(50, 0, 151);
     padding-block: 1rem;
     padding-inline: 1.25rem;
     border-radius: 1rem;
@@ -781,7 +781,7 @@ ul li i:after {
 .sponsors-card {
     height: 20rem;
     width: 22rem;
-    background-color:rgb(194, 109, 188);
+    background-color: rgb(194, 109, 188);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -799,7 +799,7 @@ ul li i:after {
 
 .sponsors-title {
     /* background-color: rgb(194, 109, 188); */
-    background-color:#1e2128;
+    background-color: #1e2128;
     width: 22rem;
     display: flex;
     align-items: center;
@@ -828,18 +828,33 @@ ul li i:after {
     background-size: cover;
 }
 
+.unibic {
+    background-image: url(./Images/unibic.png);
+    background-size: cover;
+}
+
 /* SPONSORS */
 
 
 /* CONTACT US */
 
-.contact-box {
+.contact-area {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     flex-wrap: wrap;
+}
+
+.contact-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     margin-block: 3rem;
     gap: 3rem;
+    width: 30%;
 }
 
 .contact-card {
@@ -872,15 +887,31 @@ ul li i:after {
     justify-content: center;
 }
 
-.contact-map{
+.contact-map {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.sju-map{
+    height: 25rem;
+    width: 40rem;
 }
 
 @media screen and (max-width: 768px) {
     .contact-icons {
         gap: 1.5rem;
+    }
+
+    .contact-box {
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact-map{
+        width: 100%;
     }
 }
 
