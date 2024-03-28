@@ -16,3 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 AOS.init();
+
+function closed(){
+    window.alert("Sorry! Registerations are closed.")
+}
